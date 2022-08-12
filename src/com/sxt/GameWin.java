@@ -102,7 +102,7 @@ public class GameWin extends JFrame {
             repaint();
             nextLevel();
             try {
-                Thread.sleep(10);
+                Thread.sleep(5);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
